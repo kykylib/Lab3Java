@@ -1,5 +1,5 @@
 package liberman;
 
 public enum Status {
-    Pending, Processing, SHIPPED, DELIVERED
+    PENDING, PROCESSING, SHIPPED, DELIVERED
 }

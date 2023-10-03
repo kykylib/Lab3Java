@@ -6,7 +6,7 @@ import java.util.List;
 public class Cart {
     private List<Product> listOfProducts = new ArrayList<>();
 
-    public void addToCart(Product product){
+    public void addProduct(Product product){
         listOfProducts.add(product);
         System.out.println("Product has been added");
     }

@@ -12,7 +12,7 @@ public class Order {
     public Order(List<Product> products) {
         this.orderId = orderCounter++;
         this.products = products;
-        this.status = Status.Pending;
+        this.status = Status.PENDING;
     }
 
     public int getOrderId() {
